@@ -6,7 +6,7 @@ namespace Piotr\SortedLinkedList;
 
 use ArrayIterator;
 
-class SortedLinkedList implements SortedLinkedListInterface
+final class SortedLinkedList implements SortedLinkedListInterface
 {
     private ?Node $head = null;
 
